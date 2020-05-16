@@ -133,22 +133,4 @@ main{
 
   /*enlaces*/
 
-  .x{
-    display: flex;
-    justify-content: flex-end;
-    top: 1em;
-    right: 1em;
-  }
-
-  .cerrar{
-    height: 40px;
-    width: 40px;
-    color:white;
-    border-radius: 50%;
-    background: #D8267C;
-    display: inline-block;
-    box-shadow: 0 0 5px #888;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  
