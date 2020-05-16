@@ -134,7 +134,7 @@ main{
   /*enlaces*/
 
   .x{
-    align-items:flex-end;
+    justify-content: flex-end;
     top: 1em;
     right: 1em;
   }
