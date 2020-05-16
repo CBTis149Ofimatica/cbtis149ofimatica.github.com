@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Jost', sans-serif;
+}
+body{
+  background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+  padding: 50px;
+}
+
+a{
+  text-decoration: none;
+  color:#f80759;
+  font-size: 20px;
+}
+
+a:hover{
+  opacity: .7;
+  color:#bc4e9c;
+}
+
+.contenedor_titulo{
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.contenedor_logo{
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+.contenedor_logo img{
+  width: 100%;
+  height: 100%;
+}
+
+.contenedor_titulo h1{
+  font-weight: 100;
+  font-family: 'Anton', sans-serif;
+  color:white;
+  margin-top: 30px;
+  background: linear-gradient(to left, #ee0979, #ff6a00);
+
+}
+.contenedor_titulo p{
+  color:#F0EFE5;
+  background:#2E2D24;
+}
+/*Contenido 1*/
+
+main{
+  background: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  box-shadow: 6px 8px 5px rgba(0, 0, 0, 0.5);
+}
+
+.contenido_1{
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.img_cotenido_1{
+  width: 100%;
+  text-align: center;
+}
+
+.img_cotenido_1 img{
+  width: 250px;
+  height: 250px;
+  margin-top: 15px;
+}
+
+.texto_contenido_1{
+  width: 100%;
+  text-align: center;
+}
+
+.texto_contenido_1 h2{
+  margin-top: 40px;
+}
+
+.texto_contenido_1 hr{
+  width: 120px;
+  height: 4px;
+  margin: auto;
+  border-style: none;
+  background: linear-gradient(to right, #00f260, #0575e6);
+  margin-top: 5px;
+}
+.texto_contenido_1 p{
+  margin-top: 20px;
+  letter-spacing: 1px;
+  margin: auto;
+  font-size: 25px;
+}
+
+.boton{
+  width: 150px;
+  padding: 16px;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.animate__rubberBand{
+  animation-delay:.3s;
+}
+
+@media screen and (min-width:1350px) {
+  .padre{
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+@media screen and (max-width:500px) {
+  .img_cotenido_1 img{
+
+    width:65px;
+    height:65px;
+  }
+  }
