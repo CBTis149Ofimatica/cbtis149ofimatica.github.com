@@ -141,8 +141,8 @@ main{
   box-sizing: border-box;
 }
 
-.linea hr{
+.contenido hr{
   width: 800;
   height: 5px;
-  background: linear-gradient(to right, #00f260, #0575e6);
+  background: linear-gradient(to right, #00f260, #0575e6,black);
 }
