@@ -142,7 +142,7 @@ main{
 }
 
 .contenido hr{
-  width: 800;
+  width: 800px;
   height: 5px;
-  background: linear-gradient(to right, #00f260, #0575e6,black);
+  background: linear-gradient(to right, #00f260, #0575e6);
 }
