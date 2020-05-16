@@ -140,9 +140,3 @@ main{
   padding: 20px;
   box-sizing: border-box;
 }
-
-.contenido hr{
-  width: 600px;
-  height: 5px;
-  background: linear-gradient(to right, #00f260, #0575e6);
-}
