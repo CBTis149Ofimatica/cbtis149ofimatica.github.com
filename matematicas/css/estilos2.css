@@ -56,16 +56,17 @@ a:hover{
 main{
   background: white;
   margin: 10px;
-  padding: 30px;
+  padding: 10px;
   border-radius: 30px;
-  margin-left: 40px;
-  margin-right: 40px;
   box-shadow: 6px 8px 5px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
 }
 
 .texto_contenido_1{
   width: 100%;
-  max-width:1000px;
+  max-width:80%;
   text-align: center;
   margin: auto;
 }
@@ -98,8 +99,9 @@ main{
     display: flex;
     flex-direction: row;
   }
-*/
+
 }
+*/
 /*
 @media screen and (max-width:500px) {
   .img_cotenido_1 img{
@@ -111,14 +113,9 @@ main{
   */
 
   /*enlaces*/
-  .contenido{
-    text-align:center;
-    width:400px;
-    box-sizing: border-box;
-  }
 
 .linea{
-  width:80%;
+  width:60%;
   height:10px;
   border-style: none;
   background: linear-gradient(to right, #00f260, #0575e6);
