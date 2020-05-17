@@ -62,9 +62,6 @@ main{
   box-shadow: 6px 8px 5px rgba(0, 0, 0, 0.5);
 }
 
-
-
-
 .texto_contenido_1{
   width: 100%;
   text-align: center;
@@ -74,7 +71,7 @@ main{
   margin-top: 40px;
 }
 
-.texto_contenido_1 hr{
+.definicion hr{
   width: 200px;
   height: 5px;
   margin: auto;
