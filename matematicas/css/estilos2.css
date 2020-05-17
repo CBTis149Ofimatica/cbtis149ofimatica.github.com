@@ -144,3 +144,12 @@ main{
   margin: auto;
   margin-top: 5px;
 }
+
+ .imagenes{
+   max-width:500px;
+   width: 300px;
+   margin: auto;
+ }
+ .imagenes img{
+   width: 100%
+ }
