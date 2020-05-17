@@ -147,9 +147,10 @@ main{
 
  .imagenes{
    max-width:500px;
-   width: 300px;
+   width: 320px;
    margin: auto;
  }
  .imagenes img{
-   width: 100%
+   width: 100%;
+   margin:auto;
  }
