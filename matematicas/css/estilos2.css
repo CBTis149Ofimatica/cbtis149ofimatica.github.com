@@ -93,7 +93,7 @@ main{
   color:#DE1245;
   font-size: 30px;
   margin-top: 10px;
-  width: 60%;
+  width: auto;
   background:#FFFA4F;
   border-radius: 16px;
 }
