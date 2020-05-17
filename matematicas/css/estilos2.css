@@ -94,7 +94,7 @@ main{
   font-size: 30px;
   margin-top: 10px;
   width: 60%;
-  background: #FFDF4F;
+  background: linear-gradient(to right, #00c3ff, #ffff1c);
   border-radius: 15px;
 }
 
