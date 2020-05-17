@@ -31,6 +31,7 @@ a:hover{
   width: 300px;
   height: 300px;
   margin: auto;
+  margin-bottom: 15px;
 }
 
 .contenedor_logo img{
@@ -85,6 +86,23 @@ main{
   margin: auto;
   font-size: 25px;
 
+}
+
+.texto_contenido_1 h3{
+  margin: auto;
+  color:#DE1245;
+  font-size: 30px;
+  margin-top: 10px;
+  width: 60%;
+  background: #FFDF4F;
+  border-radius: 15px;
+}
+
+.texto_contenido_1 h4{
+  text-align: center;
+  color:#1C7CC6;
+  margin-top: 15px;
+  font-size: 20px;
 }
 
 .boton{
