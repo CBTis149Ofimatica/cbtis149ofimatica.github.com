@@ -75,7 +75,7 @@ main{
 }
 
 .texto_contenido_1 hr{
-  width: 80%;
+  width: 80px;
   height: 5px;
   margin: auto;
   border-style: none;
