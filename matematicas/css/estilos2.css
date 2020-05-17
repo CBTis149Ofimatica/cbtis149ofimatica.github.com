@@ -44,6 +44,7 @@ a:hover{
   color:white;
   margin-top: 30px;
   background: linear-gradient(to left, #ee0979, #ff6a00);
+  border-radius: 15px;
 
 }
 .contenedor_titulo p{
@@ -64,7 +65,9 @@ main{
 
 .texto_contenido_1{
   width: 100%;
+  max-width:1000px;
   text-align: center;
+  margin: auto;
 }
 
 .texto_contenido_1 h2{
@@ -108,19 +111,17 @@ main{
   */
 
   /*enlaces*/
-.contenido{
-  text-align: center;
-  width: 100%;
-  max-width: 100%;
-  margin: auto;
-  padding: 20px;
-  box-sizing: border-box;
-}
+  .contenido{
+    text-align:center;
+    width:400px;
+    box-sizing: border-box;
+  }
 
 .linea{
   width:80%;
-  height:5px;
+  height:10px;
   border-style: none;
   background: linear-gradient(to right, #00f260, #0575e6);
   margin: auto;
+  margin-top: 5px;
 }
