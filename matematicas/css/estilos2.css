@@ -94,8 +94,8 @@ main{
   font-size: 30px;
   margin-top: 10px;
   width: 60%;
-  background: linear-gradient(to right, #00c3ff, #ffff1c);
-  border-radius: 15px;
+  background:FFFA4F;
+  border-radius: 16px;
 }
 
 .texto_contenido_1 h4{
