@@ -45,6 +45,8 @@ a:hover{
   margin-top: 30px;
   background: linear-gradient(to left, #ee0979, #ff6a00);
   border-radius: 15px;
+  max-width: 1200px;
+  margin: auto;
 
 }
 .contenedor_titulo p{
