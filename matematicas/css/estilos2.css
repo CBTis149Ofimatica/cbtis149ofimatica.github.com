@@ -148,6 +148,7 @@ main{
  .imagenes{
    width: 420px;
    margin: auto;
+   margin-top: 10px;
  }
  .imagenes img{
    max-width: 420px;
