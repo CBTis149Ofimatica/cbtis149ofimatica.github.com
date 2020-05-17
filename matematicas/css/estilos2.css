@@ -146,11 +146,11 @@ main{
 }
 
  .imagenes{
-   max-width:500px;
-   width: 350px;
+   width: 420px;
    margin: auto;
  }
  .imagenes img{
+   max-width: 420px;
    width: 100%;
    margin:auto;
  }
