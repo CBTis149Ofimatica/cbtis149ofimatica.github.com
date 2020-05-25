@@ -74,8 +74,8 @@ main{
 }
 
 .img_cotenido_1 img{
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   margin-top: 15px;
 }
 
@@ -100,7 +100,7 @@ main{
   margin-top: 20px;
   letter-spacing: 1px;
   margin: auto;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .boton{
