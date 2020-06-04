@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    background: #F3F9F8;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo {
+    margin-top: 0px;
+    position: relative;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, .5);
+    margin-bottom: 50px;
+
+}
+
+
+
+.titulo img {
+    width: 100%;
+    height: 100%;
+    max-height: 750px;
+    min-height: 450px
+}
+
+.texto {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translateX(-40%) translateY(-50%);
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+.texto h1 {
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+    margin-bottom: 0px;
+    background-color: rgba(0,0,0,.3);
+    text-align: center;
+    
+
+}
+
+
+.texto p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+    background-color:rgba(20,200,200,.5);
+    text-align: center;
+        
+}
+
+/*Galeria*/
+.sub{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    border-radius: 20px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, .5);
+    color: navajowhite;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.mas{
+    font-size: 14px;
+    text-align: center;
+    width:20%;
+    margin: auto;
+    background-color: crimson;
+    color:white;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, .5);
+    margin-bottom: 10px;
+
+}
+.galeria{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50PX;
+}
+
+.foto{
+    width: 300px;
+
+    background-color:white;
+    padding: 10px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, .5);
+    display: block;
+    position: relative;
+    margin: 15px;
+    transition: .4s;
+   
+}
+
+.foto:hover{
+    transform: translateY(-40px)
+}
+
+.foto img{
+    width:100%;
+    height: 250px;
+    filter: grayscale(1);
+    transition: .3s
+}
+
+.foto img:hover{
+    filter: grayscale(0)
+}
+
+.nombre{
+   height:20px 
+}
+
+.nombre p{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color:crimson; 
+    transition: .3s;
+    border-radius:5px;
+    font-size: 20px;
+        
+}
+
+hr{
+  width: 40%;
+  height: 4px;
+  margin: auto;
+  border-style: none;
+  background: linear-gradient(to right, #00f260, #0575e6);
+ 
+}
+
+
+/*Footer*/
+
+.contenido1 p{
+    line-height : 35px;
+}
+
+.titulos-f{
+    display:flex;
+}
+
+.icon{
+    margin-top:22px;
+    margin-right:10px;
+    font-size:25px;
+}
+
+.maestra{
+    display: flex;
+}
+
+.woman{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-top:8px
+}
+
+.woman img{
+    width: 100%;
+}
+
+
+@media screen and (min-width:1100px) {
+    .texto h1 {
+        font-size: 80px
+    }
+
+    .texto p {
+        font-size: 35px
+    }
+
+    .texto {
+        transform: translateX(-60%) translateY(-40%);
+        
+    }
+ 
+    .number2{
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width:1023px){
+    .galeria{
+        display: block;
+        margin: auto;
+        width:100%;
+    }
+    
+    .foto{
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .foto img{
+        filter: none;
+        
+    }
+    .foto:hover{
+        transform: none;
+    }
+    
+    .foto{
+        width:250px;
+    
+    }
+    
+    .mas{
+        width: 40%
+    }
+    
+    .sub{
+        width: 60%;
+    }
+    
+    
+}
+
